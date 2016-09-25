@@ -11,6 +11,7 @@ module.exports = function(app) {
         pagamento.status = 'Efetuado';
         pagamento.dataPagamento = new Date;
         console.log(pagamento);
+        collection.insert(pagamento);
         res.send(pagamento);
     })
 }
