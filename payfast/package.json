@@ -1,17 +1,18 @@
 {
-  "name": "payfast",
-  "version": "1.0.0",
-  "description": "Iniciando estudos nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Lucas Lopes",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "consign": "^0.1.2",
-    "express": "^4.14.0",
-    "mongoq": "^0.2.5"
-  }
+    "name": "payfast",
+    "version": "1.0.0",
+    "description": "Iniciando estudos nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Lucas Lopes",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "consign": "^0.1.2",
+        "express": "^4.14.0",
+        "mongoq": "^0.2.5",
+        "mongodb": "^2.2.10"
+    }
 }
